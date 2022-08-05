@@ -6,7 +6,7 @@
 			"label": "docker-build",
 			"platform": "python",
 			"dockerBuild": {
-				"tag": "msdocspythonflaskcontainerwebappdev:latest",
+				"tag": "msdocspythoncontainerwebapp:latest",
 				"dockerfile": "${workspaceFolder}/Dockerfile",
 				"context": "${workspaceFolder}",
 				"pull": true
@@ -28,7 +28,7 @@
 				"extraHosts": [
 					{
 						"hostname": "mongoservice",
-						"ip": "<YOUR-IP-ADDRESS>"
+						"ip": "10.0.0.130"
 					}
 				]
 			},
